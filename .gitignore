@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+
+# Unreal Engine files
+UE_5.5/Intermediate/
+UE_5.5/Saved/
+UE_5.5/Engine/DerivedDataCache/
+
+# Large binary files
+*.dll
+*.pdb
+*.exe
+*.dylib
+*.so
