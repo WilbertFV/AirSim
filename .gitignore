@@ -2,9 +2,15 @@
 .DS_Store
 
 # Unreal Engine files
-UE_5.5/Intermediate/
-UE_5.5/Saved/
-UE_5.5/Engine/DerivedDataCache/
+UE_5.5/
+UE_5.5/.egstore/
+UE_5.5/FeaturePacks/
+UE_5.5/Samples/
+UE_5.5/Templates/
+
+# Keep specific folders
+!UE_5.5/Engine/Config/
+!UE_5.5/Engine/CustomSettings/
 
 # Large binary files
 *.dll
